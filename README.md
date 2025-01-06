@@ -66,12 +66,12 @@ The database is populated with the following records during setup:
 2. **Set Up a Virtual Environment**
    Ensure Python 3 and SQLite3 are installed.
    Create and activate a virtual environment to manage dependencies:
-   # On Windows
+   #### On Windows
    ```
    python -m venv venv
    venv\Scripts\activate
    ```
-   # On macOS/Linux
+   #### On macOS/Linux
    ```
    python3 -m venv venv
    source venv/bin/activate
@@ -89,7 +89,26 @@ The database is populated with the following records during setup:
 5. **Database Initialization**
    The database (database.db) will be automatically created and populated upon the first run of the application.
 
-   
+## Usage
+Upon running the program, a menu will appear:
+```
+1. Enter book
+2. Update book
+3. Delete book
+4. Search books
+0. Exit
+```
+- Select the desired option by entering the corresponding number.
+- Follow on-screen prompts to perform CRUD operations.
+  
+## Contributing
+Feel free to fork this repository and submit pull requests for new features or improvements. 
+
+---
+<p align="center"><strong>Author</strong>: <em>Negin Moghadam</em></p>
+<p align="center"><strong>Project</strong>: <em>Ebook Store Management System</em></p>
+
+
 
 
 
